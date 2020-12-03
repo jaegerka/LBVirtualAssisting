@@ -1,0 +1,173 @@
+/* Settings for all pages */
+/* Sets the font and text-alignment for all h1 tags */
+h1 {
+    font-family: 'Yeseva One', cursive;
+    text-align: center;
+}
+
+/* Sets the font and text-alignment for all p tags */
+p {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+
+/* Settings for the navigation bar at the top */
+nav {
+    width: 100%;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 0%;
+ }
+
+/* Settings for the spaces for the words in the navbar */
+ul {
+    display: table;
+    width: 40rem;
+    padding: 0;
+}
+
+/* Settings for the words in the navbar */
+ul li {
+    margin-left: 40px;
+    display: table-cell;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    color: #c27958;
+    font-weight: 2000;
+}
+
+/* Underlines the active page in the navbar */
+a.active {
+    border-bottom: 1px solid #c27958;
+}
+
+/* Settings for the footer at the bottom of every page */
+#footer {
+    width: 20%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-bottom: 2.5%;
+    margin-top: 5%;
+    border-top-color: #c27958;
+    border-top-style: solid;
+    border-top-width: 1px;
+    padding-top: 2.5%;
+}
+
+/* Settings for the Let's Chat button in the footer*/
+#letschat {
+    border-color: #c27958;
+    border-width: 1px;
+    border-style: solid;
+    background-color: #c27958;
+    color: #eee3dd;
+}
+
+/* Changes the color of the icons in the footer and header */
+.icon{
+    filter: invert(61%) sepia(4%) saturate(4456%) hue-rotate(332deg) brightness(85%) contrast(96%);
+}
+
+
+
+
+/* Settings for the Home Page */
+/* Sets the background for the header on the home page */
+#homeheader {
+    color: #c27958;
+    font-family: 'Yeseva One', cursive;
+    margin: 0;
+    background-image: url('images/backgroundimage.jpg');
+    height: 15rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+/* Settings for the profile photo on the home page */
+#profile {
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 2.5%;
+}
+
+/* Settings for the introduction on the home page */
+#intro {
+    font-size: 20px;
+    margin: auto;
+}
+
+/* Settings for the row that the introduction is in on the home page */
+#introrow {
+    margin: auto;
+    margin-top: 2.5%;
+    width: 50%;
+    color: #c27958;
+}
+
+/* Sets the top margin for the row the profile pictures is in */
+#profilerow {
+    margin-top: 2.5%;
+}
+
+
+
+
+
+/* Settings for the Services Page */
+/* Sets the background for the header on the services page */
+#servicesheader {
+    color: #c27958;
+    font-family: 'Yeseva One', cursive;
+    margin: 0;
+    background-image: url('images/backgroundimage4.jpg');
+    height: 15rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+/* Setting for the cards on the services page */
+.card {
+    width: 25rem;
+    margin: 2.5%;
+    border-radius: 2.5%;
+}
+
+/* Setting for the header for the cards on the services page */
+div .card-header {
+    background-color: #c27958;
+    color: white;
+    font-family: 'Yeseva One', cursive;
+}
+
+/* Sets the color of the words in the card on the services page */
+.card-body {
+    color: #c27958;
+}
+
+/* Centers the cards on the page */
+div a {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+
+
+/* Sets the background for the header on the contact me page */
+#contactmeheader {
+    color: #c27958;
+    font-family: 'Yeseva One', cursive;
+    margin: 0;
+    background-image: url('images/backgroundimage3.jpg');
+    height: 15rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+

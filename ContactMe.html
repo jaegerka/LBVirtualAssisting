@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap');
+    </style>
+    <link rel="icon" type="image/png" href="images/favicon.ico"/>
+</head>
+<!--Sets the background color of the body (main part of the page)-->
+<body style="background-color:#eee3dd;">
+
+<!--Creates the navbar at top of the page-->
+<nav class="navbar navbar-expand-md navbar-light" style="margin-bottom: 0%">
+    <!-- Links the logo at top left to the home page-->
+    <a href="Homepage.html" style="color: none;">
+        <img src="images/logo.png" style="height: 6rem;">
+    </a>
+    <div class="row">
+        <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+            <ul class="nav navbar-nav mr-auto row" routerLinkActive="active">
+                    <!-- Links the Home button to the home page-->
+                <li class="nav-item">
+                    <a class="nav-link" href="homepage.html" style="color: #c27958;">Home</a>
+                </li>
+                    <!-- Links the Services button to the services page-->
+                <li class="nav-item"><a class="nav-link" href="services.html" style="color: #c27958;">Services</a></li>
+                    <!-- Links the Contact Me button to the contact me page-->
+                <li class="nav-item"><a class="nav-link active" href="contactme.html" style="color: #c27958;">Contact Me</a></li>
+            </ul>
+                <!-- Positions the icons and button in the navbar to the right -->
+            <div class="navbar-collapse collapse w-100 order-2 dual-collapse2" style="width: 10%; position: absolute;
+            right: -375px;">
+                <ul class="navbar-nav ml-auto">
+                    <!-- Sends email to your email when you click the email button-->
+                    <a href="" class="nav-link icon" style="margin: 0;">
+                        <img src="images/email.png" style="height: 3rem;">
+                    </a> 
+                    <!-- links instagram icon to instagram page -->
+                    <a href="" class="nav-link icon" style="margin: 0;">
+                        <img src="images/instagram.png" style="height: 2.8rem;">
+                    </a>
+                    <!-- links the let's chat button to calendly-->
+                    <a class="btn" class="nav-link" id="letschat" style="height: 2.5rem; margin-top: 2%; margin-left: 0; margin-right: 0;" href="">Let's Chat</a>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+    
+<!-- Creates the jumbotron (large rectangle with background) for the contact me page-->
+<div class="jumbotron" id="contactmeheader">
+    <h1>Contact Me</h1>
+    <p>Let's get in touch.</p>
+</div>
+
+<!-- Links the Calendly widget-->
+<div class="calendly-inline-widget" style="width: 550px; height:700px; margin: 0 auto; margin-top: 5%" data-auto-load="false">
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+    <script>
+        Calendly.initInlineWidget({
+        url: ''
+        });
+    </script>
+</div>
+
+<!-- Creates the row for the footer at the bottom of the page-->
+<div class="row" id="footer">
+    <!-- Sends email to email address-->
+    <a href="">
+        <img class="icon" src="images/email.png" style="height: 3rem;">
+    </a> 
+    <!-- Links instagram button to instagram-->
+    <a href="">
+        <img class="icon" src="images/instagram.png" style="height: 2.8rem;">
+    </a>
+    <!-- Links let's chat button to calendly-->
+    <a class="btn" id="letschat" href="">Let's Chat</a>
+</div>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Services</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap');
+    </style>
+    <link rel="icon" type="image/png" href="images/favicon.ico"/>
+</head>
+<!--Sets the background color of the body (main part of the page)-->
+<body style="background-color:#eee3dd;">
+
+<!--Creates the navbar at top of the page-->
+<nav class="navbar navbar-expand-md navbar-light" style="margin-bottom: 0%">
+    <!-- Links the logo at top left to the home page-->
+    <a href="Homepage.html" style="color: none;">
+        <img src="images/logo.png" style="height: 6rem;">
+    </a>
+    <div class="row">
+        <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+            <ul class="nav navbar-nav mr-auto row" routerLinkActive="active">
+                    <!-- Links the Home button to the home page-->
+                <li class="nav-item">
+                    <a class="nav-link" href="homepage.html" style="color: #c27958;">Home</a>
+                </li>
+                    <!-- Links the Services button to the services page-->
+                <li class="nav-item"><a class="nav-link active" href="services.html" style="color: #c27958;">Services</a></li>
+                    <!-- Links the Contact Me button to the contact me page-->
+                <li class="nav-item"><a class="nav-link" href="contactme.html" style="color: #c27958;">Contact Me</a></li>
+            </ul>
+                <!-- Positions the icons and button in the navbar to the right -->
+            <div class="navbar-collapse collapse w-100 order-2 dual-collapse2" style="width: 10%; position: absolute;
+            right: -375px;">
+                <ul class="navbar-nav ml-auto">
+                    <!-- Sends email to your email when you click the email button-->
+                    <a href="" class="nav-link icon" style="margin: 0;">
+                        <img src="images/email.png" style="height: 3rem;">
+                    </a> 
+                    <!-- links instagram icon to instagram page -->
+                    <a href="" class="nav-link icon" style="margin: 0;">
+                        <img src="images/instagram.png" style="height: 2.8rem;">
+                    </a>
+                    <!-- links the let's chat button to calendly-->
+                    <a class="btn" class="nav-link" id="letschat" style="height: 2.5rem; margin-top: 2%; margin-left: 0; margin-right: 0;" href="">Let's Chat</a>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+    
+<!-- Creates the jumbotron (large rectangle with background) for the services page-->
+<div class="jumbotron" id="servicesheader">
+    <h1>Services</h1>
+    <p>Below are a list of services that I offer.</p>
+</div>
+
+<!-- Creates row for the services cards -->
+<div class="row" style="display: flex">
+    <!-- Creates card and centers with mx-auto-->
+    <div class="card mx-auto">
+        <!-- Header portion of the card-->
+        <div class="card-header">
+            <h1 class="card-title">5 hours</h1>
+            <p> $30/hour</p>
+        </div>
+        <!-- Body portion of the card-->
+        <div class="card-body">
+            <p>This is the most common package.  <br>
+                With this package, I will work on your projects for 5 hours a week Monday - Friday. <br>
+                We can delegate those hours whichever way you want them spread out.</p>
+            <p>Sample Schedule: <br>
+                1 hour per day Monday - Friday <br>
+                We will use a time-keeping app to keep track</p>
+            <p>Payment reoccuring as often or as little as you want.  Weekly, bi-weekly, monthly, or up front for length of contract.</p>
+        </div>
+    </div>
+
+    <div class="card mx-auto">
+        <div class="card-header">
+            <h1 class="card-title">10 hours</h1>
+            <p> $25/hour</p>
+        </div>
+        <div class="card-body">
+            <p>Let's do this! A more in-depth deal. <br>
+                With this package, I can pretty much do it all for you (almost). <br> <br>
+                This is a great package if you'd like more than 2 or 3 services done at the same time. <br>
+                As with the 5 hour package, the tasks can be delegated depending on your needs.</p>
+            <p>Sample Schedule: <br> 
+                2 hours per day, 5 days a week Monday - Friday. <br>
+                We will use a time-keeping app to keep track</p>
+            <p>Payment reoccuring as often or as little as you want.  Weekly, bi-weekly, monthly, or up front for length of contract.</p>
+        </div>
+    </div>
+
+    <div class="card mx-auto">
+        <div class="card-header">
+            <h1 class="card-title">15 hours</h1>
+            <p> $25/hour</p>
+        </div>
+        <div class="card-body">
+            <p>Oh so you want it all?  Cool.  Let's get to work!  <br>
+                For 15 hours a week I can pretty much run the show.  <br> 
+                I can do everything from run your socials, emails, ghostwriting, customer service, create your brands content, enter your data, etc. <br>
+                This package is best suited for people who need a right-hand girl to help them with all their daily tasks.</p>
+            <p> Sample Schedule: <br>
+                3 hours per day Monday - Friday or 5 hours per day 3x a week <br>
+                My schedule is customizable to you!  <br>
+                We will use a time-keeping app to keep track</p>
+            <p>Payment reoccuring as often or as little as you want.  Weekly, bi-weekly, monthly, or up front for length of contract.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Creates the row for the footer at the bottom of the page-->
+<div class="row" id="footer">
+    <!-- Sends email to email address-->
+    <a href="">
+        <img class="icon" src="images/email.png" style="height: 3rem;">
+    </a> 
+    <!-- Links instagram button to instagram-->
+    <a href="">
+        <img class="icon" src="images/instagram.png" style="height: 2.8rem;">
+    </a>
+    <!-- Links let's chat button to calendly-->
+    <a class="btn" id="letschat" href="">Let's Chat</a>
+</div>
+
+
+</body>
+</html>
